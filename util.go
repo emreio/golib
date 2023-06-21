@@ -3,7 +3,7 @@ package golib
 const PACKAGENAME = "golib/PACKAGENAME"
 
 type MathUtil struct {
-   loggingEnabled bool
+   LoggingEnabled bool
 }
 
 func (mathUtil *MathUtil) Add(a int, b int) int {
