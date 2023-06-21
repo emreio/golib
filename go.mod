@@ -1,3 +1,3 @@
-module github.com/emreio/golib/v0.0.1-beta1
+module github.com/emreio/golib
 
 go 1.19
