@@ -7,14 +7,14 @@ type MathUtil struct {
 }
 
 func (mathUtil *MathUtil) Add(a int, b int) int {
-	 if mathUtil.loggingEnabled {
+	 if mathUtil.LoggingEnabled  {
 	 	fmt.Println("[Add operation started.]")
 	 }
 	return a + b
 }
 
 func (mathUtil *MathUtil) Subtract(a int, b int) int {
-	 if mathUtil.loggingEnabled {
+	 if mathUtil.LoggingEnabled  {
 		fmt.Println("[Subtract operation started.]")
 	 }
 	return a - b
