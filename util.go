@@ -6,6 +6,7 @@ import (
 
 const PACKAGENAME = "golib/PACKAGENAME"
 
+// Root struct
 type MathUtil struct {
 	LoggingEnabled bool
 }
