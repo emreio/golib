@@ -11,6 +11,7 @@ type MathUtil struct {
 	LoggingEnabled bool
 }
 
+// Aritmetic Add Operation Interface
 type Add interface {
 	Add(a int, b int) int
 }
